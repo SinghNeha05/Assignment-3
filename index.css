@@ -1,0 +1,74 @@
+.topnav {
+  background: #222433;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.column {
+  float: left;
+  width: 50%;
+  /* margin-bottom: 30px; */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bottomnav {
+  background: #222433;
+  overflow: hidden;
+  color: #f2f2f2;
+  text-align: center;
+}
+.offer_btn {
+  margin-bottom: 19px;
+  border-radius: 12px;
+  color: white;
+  background-color: orange;
+  width: 250px;
+  padding: 6px;
+}
+.middleSection {
+  background-color: beige;
+}
+.welcomeText {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.imgDiv {
+  background-image: url("assets/js.jpg");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  height: 68vh;
+}
+body {
+  font-family: cursive;
+}
+
+@media screen and (min-width: 1521px) {
+  .img-div {
+    height: 243vh;
+    width: 100%;
+    float: none;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .img-div .column {
+    background-size: contain;
+    height: 312vh;
+    float: none;
+  }
+}
